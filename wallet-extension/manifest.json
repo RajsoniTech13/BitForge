@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "BitForge Wallet",
+    "version": "1.0",
+    "description": "A simple Ethereum & Solana wallet",
+    "permissions": ["storage", "activeTab", "scripting", "clipboardWrite"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "externally_connectable": {
+        "matches": ["http://localhost:5173/*"]
+    },
+    "host_permissions": [
+        "https://mainnet.infura.io/*",
+        "https://api.mainnet-beta.solana.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon17.png",
+            "128": "icons/icon18.png"
+        }
+    }
+}
