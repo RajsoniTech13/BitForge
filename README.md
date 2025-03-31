@@ -21,7 +21,7 @@ A Chrome extension and React web application for managing Ethereum and Solana wa
 ### Step 1: Start the Server
 The server handles API requests for wallet operations.
 ```
-1. Clone the repository:
+1. Clone the repository/Unzip The Folder:
 bash
 git clone https://github.com//BitForge.git
 
