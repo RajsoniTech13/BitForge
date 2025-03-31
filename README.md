@@ -51,7 +51,7 @@ node server.js
 	6.3 Enable "Developer mode" in the top right corner
 	6.4 Click "Load unpacked" and select the root directory of this repository (where manifest.json is located)
 	6.5 The BitForge Wallet extension should now appear in your extensions list
-
+```
 
 ###
 Created by [Jaiditya Chauhan, Raj Soni, Jenish Tank] - [Jaiditya-01, RajsoniTech13, Jenish711]
