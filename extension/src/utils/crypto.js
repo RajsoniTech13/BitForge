@@ -5,6 +5,7 @@ export const NETWORKS = {
     "1": { name: "Ethereum Mainnet", rpc: "https://cloudflare-eth.com", chainId: "1", symbol: "ETH", explorer: "https://etherscan.io" },
     "11155111": { name: "Sepolia Testnet", rpc: "https://rpc.sepolia.org", chainId: "11155111", symbol: "SEP ETH", explorer: "https://sepolia.etherscan.io" },
     "137": { name: "Polygon Mainnet", rpc: "https://polygon-rpc.com", chainId: "137", symbol: "POL", explorer: "https://polygonscan.com" },
+    "80002": { name: "Polygon Amoy", rpc: "https://rpc-amoy.polygon.technology", chainId: "80002", symbol: "POL", explorer: "https://amoy.polygonscan.com" },
 };
 
 export const generateSeedPhrase = () => {
