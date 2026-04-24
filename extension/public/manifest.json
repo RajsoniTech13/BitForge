@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "BitForge Wallet",
+  "version": "1.0",
+  "description": "A Web3 extension wallet with React and Ethers.js",
+  "permissions": ["storage", "activeTab", "scripting", "alarms"],
+  "host_permissions": [
+      "<all_urls>"
+  ],
+  "background": {
+      "service_worker": "assets/background.js",
+      "type": "module"
+  },
+  "content_scripts": [
+      {
+          "matches": ["<all_urls>"],
+          "js": ["assets/contentScript.js"],
+          "run_at": "document_start",
+          "all_frames": true
+      }
+  ],
+  "web_accessible_resources": [
+      {
+          "resources": ["assets/injectScript.js"],
+          "matches": ["<all_urls>"]
+      }
+  ],
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "BitForge Wallet"
+  }
+}

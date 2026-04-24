@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-500: #007acc;
+  --color-brand-600: #005f99;
+  --color-dark-800: #1a2526;
+  --color-dark-900: #0a1214;
+}
+
+body {
+  @apply bg-dark-900 text-gray-100 font-sans antialiased m-0 p-0;
+  width: 400px;
+  height: 600px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
